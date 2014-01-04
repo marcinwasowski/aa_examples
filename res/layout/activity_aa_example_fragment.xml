@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/frgExample1"
+        android:tag="frgTag1"
+        class="pl.amsard.aa3examples.aa.AAExampleFragment_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	<fragment
+        android:id="@+id/frgExample2"
+        android:tag="frgTag2"
+        class="pl.amsard.aa3examples.aa.AAExampleFragment_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	<fragment
+        android:id="@+id/frgExample3"
+        android:tag="frgTag3"
+        class="pl.amsard.aa3examples.aa.AAExampleFragment_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	<fragment
+        android:id="@+id/frgExample4"
+        android:tag="frgTag4"
+        class="pl.amsard.aa3examples.aa.AAExampleFragment_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

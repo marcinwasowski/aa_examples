@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.amsard.aa3examples"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:name=".aa.AAExampleApplication_">
+        
+        <activity
+            android:name="pl.amsard.aa3examples.main.MainActivity_"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pl.amsard.aa3examples.std.SimpleActivity"
+            android:label="@string/title_activity_simple" >
+        </activity>
+        <activity
+            android:name="pl.amsard.aa3examples.aa.AASimpleActivity_"
+            android:label="@string/title_activity_simple" >
+        </activity>
+        <activity
+            android:name="pl.amsard.aa3examples.std.ExampleFragmentActivity"
+            android:label="@string/title_activity_example_fragment" >
+        </activity>
+        <activity
+            android:name="pl.amsard.aa3examples.aa.AAExampleFragmentActivity_"
+            android:label="@string/title_activity_example_fragment" >
+        </activity>
+        
+        <activity
+            android:name="pl.amsard.aa3examples.std.ThreadActivity"
+            android:label="@string/title_activity_example_fragment" >
+        </activity>
+        <activity
+            android:name="pl.amsard.aa3examples.aa.AAThreadActivity_"
+            android:label="@string/title_activity_example_fragment" >
+        </activity>
+        
+    </application>
+
+</manifest>

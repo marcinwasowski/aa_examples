@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AA3Examples</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_simple">SimpleActivity</string>
+    <string name="example_image">Example image</string>
+    <string name="others">Others</string>
+    <string name="photo_title"><![CDATA[<b>Interesting</b> photo!]]></string>
+
+    <string-array name="main_buttons_labels">
+        <item>SimpleActivity</item>
+        <item>AASimpleActivity</item>
+        <item>ExampleFragmentActivity</item>
+        <item>AAExampleFragmentActivity</item>
+        <item>ThreadActivity</item>
+        <item>AAThreadActivity</item>
+        
+    </string-array>
+
+    <string name="title_activity_example_fragment">ExampleFragmentActivity</string>
+    
+    <string name="cancel">Cancel</string>
+    <string name="start">Start</string>
+    
+    <string name="finished">Finished %0$d</string>
+    <string name="progress">Progress %0$d \%</string>
+
+</resources>
