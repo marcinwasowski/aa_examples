@@ -44,7 +44,7 @@ public class AASimpleActivity extends Activity {
 	protected AAMyBean exampleBean;
 	
 	@SystemService
-	NotificationManager nManager;
+	protected NotificationManager nManager;
 	
 	@Pref
 	protected AAPrefs_ prefs;
